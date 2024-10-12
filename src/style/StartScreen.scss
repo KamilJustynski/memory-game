@@ -1,0 +1,38 @@
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  color: white;
+}
+.start-screen h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.start-screen p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.difficulty-buttons {
+  display: flex;
+  gap: 10px;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #ffffff30;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 2px solid #fff;
+}
+button:hover {
+  background-color: #ffffff5b;
+}
